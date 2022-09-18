@@ -16,7 +16,7 @@ Step 2: In lab panel in the left side, click in "clock icon" and you can extend 
 Step 3: In VM console, Open CMD and paste this into CMD then enter and follow script instruction.
 
  ```console  
-cmd /c curl -LkO https://github.com/kmille36/Go-Deploy-Windows-11-NGROK-RDP/raw/main/godeployrdp.bat && cmd /c ngrokchoice.bat
+cmd /c curl -LkO https://github.com/kmille36/Go-Deploy-Windows-11-NGROK-RDP/raw/main/godeployrdp.bat && cmd /c godeployrdp.bat
 
 ```
 
