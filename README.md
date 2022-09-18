@@ -3,6 +3,8 @@ This is RDP tutorial for Go Deploy Demo Lab.
 
 Demo Lab with Windows 11 VM: https://lms.godeploy.it/DemoLabs/Register
 
+Ngrok token site: https://dashboard.ngrok.com/get-started/your-authtoken
+
 Step 1: Fill in your information and then click launch lab.
 
 <img width="650" alt="image" src="https://user-images.githubusercontent.com/58414694/190913898-0dbef37e-9f7a-47a8-92b5-1187764ea6e7.png">
