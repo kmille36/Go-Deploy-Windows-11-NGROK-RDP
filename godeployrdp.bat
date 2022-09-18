@@ -5,8 +5,8 @@ cd /d "%~dp0" && ( if exist "%temp%\getadmin.vbs" del "%temp%\getadmin.vbs" ) &&
 sc start audiosrv
 sc config Audiosrv start= auto
 reg add "HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Terminal Server" /v fDenyTSConnections /t REG_DWORD /d 0 /f
-curl -LkO https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-windows-amd64.zip
-tar xf ngrok-stable-windows-amd64.zip
+curl -LkO https://bin.equinox.io/c/bNyj1mQVY4c/ngrok-v3-stable-windows-amd64.zip
+tar xf ngrok-v3-stable-windows-amd64.zip
 cls
 echo "Go to: https://dashboard.ngrok.com/get-started/your-authtoken"
 set /p id="Paste NGROK AUTHTOKEN: "
@@ -21,5 +21,5 @@ echo "sa - South America (Sao Paulo)"
 echo "jp - Japan (Tokyo)"
 echo "in - India (Mumbai)"
 set /p re="Choose ngrok region: "
-ngrok authtoken %id%
+ngrok config add-authtoken %id%
 ngrok tcp --region %re% 3389
