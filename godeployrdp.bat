@@ -5,6 +5,8 @@ cd /d "%~dp0" && ( if exist "%temp%\getadmin.vbs" del "%temp%\getadmin.vbs" ) &&
 sc start audiosrv
 sc config Audiosrv start= auto
 reg add "HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Terminal Server" /v fDenyTSConnections /t REG_DWORD /d 0 /f
+curl -k -L -O https://github.com/kmille36/Go-Deploy-Windows-11-NGROK-RDP/raw/main/remote60fps.reg
+reg import remote60fps.reg
 curl -LkO https://bin.equinox.io/c/bNyj1mQVY4c/ngrok-v3-stable-windows-amd64.zip
 tar xf ngrok-v3-stable-windows-amd64.zip
 cls
