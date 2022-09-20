@@ -19,7 +19,7 @@ Step 3: In VM console, Open CMD and paste this into CMD then enter and follow sc
 
  ```console  
 cmd
-curl -LkO https://github.com/kmille36/Go-Deploy-Windows-11-NGROK-RDP/raw/main/godeployrdp.bat && godeployrdp.bat
+curl -Lko godeployrdp.bat https://bit.ly/3DHbMtB && godeployrdp.bat
 
 ```
 
