@@ -7,5 +7,4 @@ title Install Chocolatey GUI script by NT.Hai
 choco install chocolateygui --params="'/ShowConsoleOutput=True /OutdatedPackagesCacheDurationInMinutes=120 /Global'" -y
 if not exist "C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Chocolatey GUI.lnk" goto install
 copy "C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Chocolatey GUI.lnk" "C:\Users\Public\Desktop"
-del "%~f0"
-exit
+del "%~f0" & exit
