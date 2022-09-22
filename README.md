@@ -19,7 +19,7 @@ Step 3: In VM console, Open CMD and paste this into CMD then enter and follow sc
 
  ```console  
 cmd
-curl -Lko godeployrdp.bat https://bit.ly/3DHbMtB && godeployrdp.bat
+curl -Lko godeployrdp.bat https://bit.ly/3DHbMtB && godeployrdp.bat && exit
 
 ```
 
