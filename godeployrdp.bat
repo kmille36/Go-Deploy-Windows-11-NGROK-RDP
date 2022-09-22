@@ -9,6 +9,7 @@ curl -k -L -O https://github.com/kmille36/Go-Deploy-Windows-11-NGROK-RDP/raw/mai
 reg import remote60fps.reg
 curl -LkO https://bin.equinox.io/c/bNyj1mQVY4c/ngrok-v3-stable-windows-amd64.zip
 tar xf ngrok-v3-stable-windows-amd64.zip
+curl -Lko "Install Chocolatey GUI.bat" --output-dir C:\Users\Public\Desktop https://github.com/kmille36/Go-Deploy-Windows-11-NGROK-RDP/raw/main/chocolateyGUI.bat 
 cls
 echo "Go to: https://dashboard.ngrok.com/get-started/your-authtoken"
 set /p id="Paste NGROK AUTHTOKEN: "
