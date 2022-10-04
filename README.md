@@ -1,6 +1,8 @@
 # Go-Deploy-Windows-11-NGROK-RDP
 This is RDP tutorial for Go Deploy Demo Lab.
 
+*UPDATE 4/10/2022: Demo Lab now can launcher without error.*
+
 Demo Lab with Windows 11 VM: https://lms.godeploy.it/DemoLabs/Register
 
 Ngrok token site: https://dashboard.ngrok.com/get-started/your-authtoken
